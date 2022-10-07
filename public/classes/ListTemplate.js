@@ -1,4 +1,5 @@
 export class ListTemplate {
+    
     constructor(container) {
         this.container = container;
     }
@@ -16,5 +17,6 @@ export class ListTemplate {
         else {
             this.container.append(li);
         }
+  
     }
 }
