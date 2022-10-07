@@ -40,4 +40,5 @@ const docFour = {
     resourceName: ResourceType.DIRECTOR,
     data: ['bread', 'milk', 'toilet roll']
 };
+
 console.log(docThree, docFour);
