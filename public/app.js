@@ -24,6 +24,7 @@ form.addEventListener('submit', (e) => {
 //ENUMS
 var ResourceType;
 (function (ResourceType) {
+
     ResourceType[ResourceType["BOOK"] = 0] = "BOOK";
     ResourceType[ResourceType["AUTHOR"] = 1] = "AUTHOR";
     ResourceType[ResourceType["FILM"] = 2] = "FILM";
