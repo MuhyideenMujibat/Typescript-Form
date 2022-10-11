@@ -16,6 +16,7 @@ export class ListTemplate {
             this.container.prepend(li);
         }
         else {
+
             this.container.append(li);
         }
   
