@@ -1,4 +1,5 @@
 export class ListTemplate {
+
     
     constructor(container) {
         this.container = container;
@@ -19,4 +20,5 @@ export class ListTemplate {
         }
   
     }
+
 }
