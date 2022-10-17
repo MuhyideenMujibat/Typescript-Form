@@ -3,8 +3,6 @@ import { ListTemplate } from "./classes/ListTemplate.js";
 import { Payment } from "./classes/Payment.js";
 import { HasFormatter } from "./interfaces/HasFormatter.js";
 
-
- 
  
 const form = document.querySelector('.new-item-form') as HTMLFormElement;
     
