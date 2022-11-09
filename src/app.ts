@@ -20,6 +20,7 @@ const list = new ListTemplate(ul);
 
 form.addEventListener('submit', (e: Event) => {
     e.preventDefault();
+ 
 
     let doc: HasFormatter;
     if (type.value === 'invoice'){
@@ -30,6 +31,7 @@ form.addEventListener('submit', (e: Event) => {
 
     list.render(doc, type.value, 'end'); 
     
+ 
 });
 
 //ENUMS
